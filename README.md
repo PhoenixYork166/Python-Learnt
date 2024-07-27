@@ -1,2 +1,2 @@
 # Hellooooo :D
-# Let's learn Python together la ching :D
+# Thank you my DevOps Engineers fellas whom we learnt Python together :D
