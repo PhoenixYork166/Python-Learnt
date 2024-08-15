@@ -8,12 +8,9 @@ string = 'search inside this text'
 a = re.search('this', string)
 
 # We can also use re.compile('keyword') to do search for us
-#b = pattern.search(string)
 b = pattern.findall(string)
-
 # fullmatch
 c = pattern.fullmatch(string)
-
 # .match object
 d = pattern.match(string)
 
@@ -23,7 +20,7 @@ try:
 except AttributeError as e:
     print(f'a.group():\nAttributeError a.group()\n{e}')
     print(f'\n')
-
+    
 # We can also use re.compile('keyword') to do search for us
 try:
     print(f'b: {b}') # ['this']
