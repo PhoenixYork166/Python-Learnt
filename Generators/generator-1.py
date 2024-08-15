@@ -1,5 +1,5 @@
 # iterable
-# generators
+
 # range(100) = a generator
 # a special type of thing to yield that pauses & resumes functions
 print(list(range(100)))
