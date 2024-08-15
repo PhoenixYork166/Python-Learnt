@@ -19,6 +19,10 @@ def make_list(number):
     # Prepare to store value into []
     result = []
 
+    ''' in the past, this creates value 1 by 1 in memory
+    for eachInteger in number:'''
+    '''this generates all values in memory at a time
+    much better performance'''
     for eachInteger in range(number):
         result.append(eachInteger * 2)
     return result
